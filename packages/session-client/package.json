@@ -32,10 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MalverdeSoftware/malverdesoftware.git",
+    "url": "git+https://github.com/MalverdeSoftware/mbolts.git",
     "directory": "packages/session-client"
   },
-  "homepage": "https://github.com/MalverdeSoftware/malverdesoftware/tree/main/packages/session-client#readme",
+  "homepage": "https://github.com/MalverdeSoftware/mbolts/tree/main/packages/session-client#readme",
   "author": "Valentín Quiroz de la Sierra",
   "contributors": [
     "Marissa Ledesma"

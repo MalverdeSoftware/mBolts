@@ -1,6 +1,6 @@
 # Notes for coding agents
 
-This repository holds the shared packages behind MalverdeSoftware's research tools. Read [docs/CONVENTIONS.md](docs/CONVENTIONS.md) first: Node 24, the commands, code style, testing and the boundaries (what to always do, ask about first, and never do). Package contracts are in `docs/specs/`.
+This repository holds mBolts, the shared packages behind MalverdeSoftware's research tools. Read [docs/CONVENTIONS.md](docs/CONVENTIONS.md) first: Node 24, the commands, code style, testing and the boundaries (what to always do, ask about first, and never do). Package contracts are in `docs/specs/`.
 
 - For any app screen, in this repository or an app's, follow `docs/specs/SPEC-ui.md`, and read `brand/DESIGN-ETHOS.md` for the logo and the name.
 - Releases follow `docs/specs/SPEC-distribution.md` and `docs/CONSUMING.md`. Publishing happens only through the release workflow on a `<package>-v<version>` tag.
