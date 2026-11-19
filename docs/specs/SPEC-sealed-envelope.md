@@ -1,6 +1,6 @@
 # Spec: sealed-envelope
 
-Module id `sealed-envelope` · October 25, 2026 · **Status: approved by the author on October 25; passcodes were added the same day at their suggestion.** Depends on nothing. Commands, structure, code style and repository-wide boundaries are in the [capability map](../CONVENTIONS.md).
+Module id `sealed-envelope` · October 25, 2026 · **Status: approved October 25, 2026, with passcodes added the same day.** Depends on nothing. Commands, structure, code style and repository-wide boundaries are in the [capability map](../CONVENTIONS.md).
 
 ## Objective
 
@@ -108,4 +108,4 @@ Module-specific additions to the [repository boundaries](../CONVENTIONS.md#bound
 
 ## Open questions
 
-None for the author. Reviewers may question P-256 instead of X25519 and PKCS#8 instead of JWK; both were chosen for older-phone support and Python interoperability.
+None outstanding. Reviewers may ask about the choice of P-256 over X25519 and PKCS#8 over JWK. Both were chosen for older-phone support and Python interoperability.

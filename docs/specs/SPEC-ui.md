@@ -1,8 +1,8 @@
 # Spec: mUI
 
-Module id `ui` · November 5, 2026 · **Status: approved by the author on November 5.** Implemented by [`@malverdesoftware/ui`](../../packages/ui). The logo, its colors and the organization's name are in [DESIGN-ETHOS](../../brand/DESIGN-ETHOS.md), which this spec follows.
+Module id `ui` · November 5, 2026 · **Status: approved November 5, 2026.** Implemented by [`@malverdesoftware/ui`](../../packages/ui). The logo, its colors and the organization's name are in [DESIGN-ETHOS](../../brand/DESIGN-ETHOS.md), which this spec follows.
 
-This line of work is called mUI, and it covers the apps. Games follow the [mGameUI spec](SPEC-game-ui.md) instead. The file, module id and package keep their names.
+This line of work is called mUI, and it covers the apps. Games follow their own design spec, kept with the games. The file, module id and package keep their names.
 
 ## Objective
 
@@ -34,7 +34,7 @@ import '@malverdesoftware/ui/accent-green.css'; // only for a green app
 ## Color
 
 - All color MUST come from Ring's variables (`--ring-text-color`, `--ring-line-color`, and so on). Hard-coded colors are for data marks only, such as Vote's sticker dots. In a stylesheet, such a line carries the marker `ui-check: allow-color`.
-- Each app has **one accent**, which the author chooses:
+- Each app has **one accent**, chosen by the project lead:
 
 | Accent | App | How | White on the accent |
 |---|---|---|---|

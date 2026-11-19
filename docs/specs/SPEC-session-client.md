@@ -1,10 +1,10 @@
 # Spec: session-client
 
-Module id `session-client` · October 25, 2026 · **Status: approved by the author on October 25; passcodes were added the same day at their suggestion.** Depends on `@malverdesoftware/sealed-envelope` (code) and the [relay HTTP contract v1](SPEC-relay.md#http-contract-v1) (network only). Commands, structure, code style and repository-wide boundaries are in the [capability map](../CONVENTIONS.md).
+Module id `session-client` · October 25, 2026 · **Status: approved October 25, 2026, with passcodes added the same day.** Depends on `@malverdesoftware/sealed-envelope` (code) and the [relay HTTP contract v1](SPEC-relay.md#http-contract-v1) (network only). Commands, structure, code style and repository-wide boundaries are in the [capability map](../CONVENTIONS.md).
 
 ## Objective
 
-The session lifecycle that apps call, so that no app handles keys, envelopes or relay paths directly. mPile uses it in round 1 and mVote adopts it later.
+The session lifecycle that apps call, so that no app handles keys, envelopes or relay paths directly. mPile uses it now, and mVote may adopt it later.
 
 It owns:
 - the researcher's **session key file**
@@ -222,5 +222,5 @@ Module-specific additions to the [repository boundaries](../CONVENTIONS.md#bound
 - **Checking a saved key file** (November 14, 2026): apps call `verifySessionFile` on the file the researcher actually saved, before publishing, so a copy that can't open responses is caught while the session can still be recreated. Passcodes cannot be checked locally; only the relay holds what they derive.
 
 - **Unfinished sorts at close** (accepted October 25): `collect({ includeDrafts: true })` returns drafts as `kind: "DRAFT"`. `mpile-app` exports them in a separate file marked "not submitted," never mixed into submitted results.
-- **Passcodes** (the author's proposal, October 25): every personal link has a six-digit passcode, which also makes continuing on another device safe.
+- **Passcodes** (added October 25): every personal link has a six-digit passcode, which also makes continuing on another device safe.
 - **Seeing a submitted sort again:** in round 1, only on the device that submitted it, from its local copy. Passcodes would make showing it on any device safe, so it can be added later as a new optional feature.
