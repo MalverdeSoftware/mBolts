@@ -28,10 +28,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MalverdeSoftware/malverdesoftware.git",
+    "url": "git+https://github.com/MalverdeSoftware/mbits.git",
     "directory": "packages/relay"
   },
-  "homepage": "https://github.com/MalverdeSoftware/malverdesoftware/tree/main/packages/relay#readme",
+  "homepage": "https://github.com/MalverdeSoftware/mbits/tree/main/packages/relay#readme",
   "author": "Valentín Quiroz de la Sierra",
   "contributors": [
     "Marissa Ledesma"

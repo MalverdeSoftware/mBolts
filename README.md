@@ -1,8 +1,8 @@
-# MalverdeSoftware
+# mBits
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24184643.svg)](https://doi.org/10.5281/zenodo.24184643) [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE) [![CI](https://github.com/MalverdeSoftware/malverdesoftware/actions/workflows/ci.yml/badge.svg)](https://github.com/MalverdeSoftware/malverdesoftware/actions/workflows/ci.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24184643.svg)](https://doi.org/10.5281/zenodo.24184643) [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE) [![CI](https://github.com/MalverdeSoftware/mbits/actions/workflows/ci.yml/badge.svg)](https://github.com/MalverdeSoftware/mbits/actions/workflows/ci.yml)
 
-MalverdeSoftware builds free, open-source tools for research and community activities. This repository holds the shared packages behind those tools, so each app stays lightweight, needs no participant logins, works on phones and in the field, and leaves data with the people who collect it. MalverdeSoftware follows an Indigenous-led approach to software: practical tools, open methods, and software that communities and research partners can run themselves.
+mBits is the set of shared packages behind MalverdeSoftware, which builds free, open-source tools for research and community activities. The packages are shared so each app stays lightweight, needs no participant logins, works on phones and in the field, and leaves data with the people who collect it. MalverdeSoftware follows an Indigenous-led approach to software: practical tools, open methods, and software that communities and research partners can run themselves.
 
 **Status: early release.** The packages are used by [mPile](https://github.com/MalverdeSoftware/mpile) and [mVote](https://github.com/MalverdeSoftware/mvote). Open source under the [Apache License 2.0](LICENSE).
 
@@ -71,11 +71,11 @@ Session key files (`*.malverdesoftware-session.md`) can open every response in a
 
 ## License and citation
 
-The MalverdeSoftware shared packages are free, open-source software under the [Apache License 2.0](LICENSE). Copyright 2026 The Johns Hopkins University. Developed by Valentín Quiroz de la Sierra and Marissa Ledesma for MalverdeSoftware, with support from the National Institute on Drug Abuse of the National Institutes of Health under Award Number K99DA066943. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health. See [NOTICE](NOTICE).
+mBits (MalverdeSoftware shared packages) is free, open-source software under the [Apache License 2.0](LICENSE). Copyright 2026 The Johns Hopkins University. Developed by Valentín Quiroz de la Sierra and Marissa Ledesma for MalverdeSoftware, with support from the National Institute on Drug Abuse of the National Institutes of Health under Award Number K99DA066943. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health. See [NOTICE](NOTICE).
 
-To cite the MalverdeSoftware shared packages, use the "Cite this repository" button on GitHub or [CITATION.cff](CITATION.cff):
+To cite mBits, use the "Cite this repository" button on GitHub or [CITATION.cff](CITATION.cff):
 
-> de la Sierra, V. Q., & Ledesma, M. (2026). *MalverdeSoftware shared packages* [Computer software]. MalverdeSoftware. https://doi.org/10.5281/zenodo.24184643
+> de la Sierra, V. Q., & Ledesma, M. (2026). *mBits (MalverdeSoftware shared packages)* [Computer software]. MalverdeSoftware. https://doi.org/10.5281/zenodo.24184643
 
 The DOI [10.5281/zenodo.24184643](https://doi.org/10.5281/zenodo.24184643) always resolves to the latest release. Each release also has its own DOI on Zenodo.
 
