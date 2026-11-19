@@ -1,6 +1,6 @@
 # Spec: Distribution
 
-Module id `distribution` · November 12, 2026 · **Status: approved by the author on November 12, with the recommended answers to Q1–Q6 accepted. Phase 0 done on November 12; the repositories went public the same day as fresh repositories, with the development history kept private as `*-history`.** Covers how mVote, mPile and the shared packages reach people: package registries, release workflow, DOIs, and who can create sessions on the hosted sites.
+Module id `distribution` · November 12, 2026 · **Status: approved November 12, 2026, with the recommended answers to Q1–Q6. The repositories went public the same day.** Covers how mVote, mPile and the shared packages reach people: package registries, release workflow, DOIs, and who can create sessions on the hosted sites.
 
 "MUST" is a rule. "SHOULD" is the default, and departing from it needs a reason you can state.
 
@@ -88,7 +88,7 @@ The author accepted each recommendation.
 | Q3 | For mVote, build the creation-key endpoint and tool option first, or go straight to the web page? | Endpoint and tool option first. The web page reuses the same endpoint. |
 | Q4 | Release at the public flip, or publish to the registries earlier? | At the public flip. A published package is public source anyway. |
 | Q5 | npm name for the console command: unscoped `mpile`, so people type `npx mpile`, or scoped `@malverdesoftware/mpile`? | Scoped `@malverdesoftware/*` for the libraries. The console command is also published as unscoped `mpile`, once the name is cleared. |
-| Q6 | Who maintains the registry accounts? | A MalverdeSoftware org account, with the author plus a second maintainer. Ask the OSPO whether JHU wants to be listed, since it owns the copyright. |
+| Q6 | Who maintains the registry accounts? | A MalverdeSoftware organization account with two maintainers. Ask the OSPO whether JHU wants to be listed, since it owns the copyright. |
 
 ## Not in this spec
 

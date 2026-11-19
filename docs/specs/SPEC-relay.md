@@ -1,6 +1,6 @@
 # Spec: relay
 
-Module id `relay` · October 25, 2026 · **Status: approved by the author on October 25; passcode lockout was added the same day at their suggestion.** It has no code dependencies. It validates envelope *shape* against the [sealed-envelope wire format](SPEC-sealed-envelope.md#wire-format-v1) but never opens one. Commands, structure, code style and repository-wide boundaries are in the [capability map](../CONVENTIONS.md).
+Module id `relay` · October 25, 2026 · **Status: approved October 25, 2026, with passcode lockout added the same day.** It has no code dependencies. It validates envelope *shape* against the [sealed-envelope wire format](SPEC-sealed-envelope.md#wire-format-v1) but never opens one. Commands, structure, code style and repository-wide boundaries are in the [capability map](../CONVENTIONS.md).
 
 ## Objective
 
@@ -207,4 +207,4 @@ Module-specific additions to the [repository boundaries](../CONVENTIONS.md#bound
 
 ## Decisions
 
-- **Creation key** (accepted by the author, October 25): only holders of an operator-issued creation key can create sessions; for round 1 that is the author alone. Participants need only their link and passcode. Opening creation to anyone, with rate limits, is a later decision.
+- **Creation key** (accepted October 25): only holders of a creation key issued by the operator can create sessions, and the first release issues one to the project lead. Participants need only their link and passcode. Opening creation to anyone, with rate limits, is a later decision.
