@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 type: software
-title: "mBits (MalverdeSoftware shared packages)"
+title: "mBolts (MalverdeSoftware shared packages)"
 abstract: >-
   Shared foundations for MalverdeSoftware research tools: a relay that
   stores only sealed data, browser-side sealed envelopes, a session
@@ -15,7 +15,7 @@ authors:
     given-names: "Marissa"
 doi: 10.5281/zenodo.24184643
 license: Apache-2.0
-repository-code: "https://github.com/MalverdeSoftware/mbits"
+repository-code: "https://github.com/MalverdeSoftware/mbolts"
 keywords:
   - community-based participatory research
   - CBPR

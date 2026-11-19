@@ -23,10 +23,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MalverdeSoftware/mbits.git",
+    "url": "git+https://github.com/MalverdeSoftware/mbolts.git",
     "directory": "packages/sealed-envelope"
   },
-  "homepage": "https://github.com/MalverdeSoftware/mbits/tree/main/packages/sealed-envelope#readme",
+  "homepage": "https://github.com/MalverdeSoftware/mbolts/tree/main/packages/sealed-envelope#readme",
   "author": "Valentín Quiroz de la Sierra",
   "contributors": [
     "Marissa Ledesma"

@@ -53,10 +53,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MalverdeSoftware/mbits.git",
+    "url": "git+https://github.com/MalverdeSoftware/mbolts.git",
     "directory": "packages/ui"
   },
-  "homepage": "https://github.com/MalverdeSoftware/mbits/tree/main/packages/ui#readme",
+  "homepage": "https://github.com/MalverdeSoftware/mbolts/tree/main/packages/ui#readme",
   "author": "Valentín Quiroz de la Sierra",
   "contributors": [
     "Marissa Ledesma"
